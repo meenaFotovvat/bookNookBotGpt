@@ -1,0 +1,40 @@
+# 💾 فایل‌های پایگاه داده
+booknook.db
+__pycache__/
+*.sqlite3
+*.db
+*.db-journal
+
+# 🔐 اطلاعات حساس
+.env
+*.session
+bookNook_session.session
+
+# 🐍 کش پایتون
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# 🚀 وابستگی‌های پایتون
+venv/
+.env/
+.idea/
+.vscode/
+*.log
+
+# 🛠 ابزارهای تست و Debug
+pytest_cache/
+.coverage
+*.cover
+nosetests.xml
+tests/__pycache__/
+
+# 📦 خروجی‌های نصبی
+dist/
+build/
+*.egg-info/
+
+# 🗑 سایر فایل‌های غیرضروری
+.DS_Store
+Thumbs.db
